@@ -1,0 +1,87 @@
+Manual Testing
+	Testing
+	SDLC 
+	SDLC Models Agile
+	Applications and Environment
+	Testing Methodologies
+	BlackBox Testing Types
+	STLC
+		STLC
+		RTM
+		DLC
+		TEst design techniques
+		Test closure
+API Testing 
+	What is API
+	HTTP methods
+	HTTP Status Codes
+	Basic information required for to trigger API request 
+	
+
+3 WEEKS cycle
+3,4 User stories
+Sprint 1 - Functional Testing
+Sprint 2 - Functional Testing  + Regression Testing of Sprint1
+Sprint 3 - Functional Testing S3 + Regression Testing of S1 & S2 
+
+Tools
+
+QTP, UFT - Licensed  - Desktop applications - Banking 
+Selenium - Open Soruce - Web applications 
+ROBOT  - Open Source - Web applications
+RPA - Robotic Process Automation
+TOSCA - 
+
+Selenium 
+	open source
+	it will support multiple programming languges Python, java, perl, ruby, c#, Javascript
+	it will support multiple browsers chrome, firefox, edge, IE, ..Safari
+	it will support multiple OS - windows, linux, mac
+
+Selenium with Python
+	Open source
+
+Selenium architecture
+	
+	Source Code Chromedriver   - JSON Wireprotocol - Real browsers 
+	
+Software Setup:
+Python
+Pycharm
+selenium
+webdriver-manager
+chromedriver download - system browser 99.0.12 
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	

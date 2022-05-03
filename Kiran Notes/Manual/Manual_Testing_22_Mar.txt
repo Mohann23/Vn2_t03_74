@@ -1,0 +1,106 @@
+Manual Testing
+Testing  - process to idenfit meet the c
+Project - service 
+Product - 
+Bidding/Contract/Tender - 
+Roles hierarchy - 
+
+SDLC - Software Development Life cycle - 
+Req Gathering -BA, PO, PDEF
+Req Analysis - Feasible study 
+Design - Blueprint dividing high level req into low levels 
+Coding - Will start development using Programming lang Python, Java, C#..
+Testing - QA/ STaging/UAT
+Deployment - PRD 
+Maintenance - 
+
+Application and Environment 
+Web application - Internet and Intranet 
+Desktop application - whole system set up available in local system .exe 
+Mobile application - APPS and Web application 
+
+LOC - 
+DEV - shape of the applicaiton 
+QA - 
+UAT - Alpha(Developers location within org by QA & BETA (client location by customer)
+PPT - will check   V1 applicaiton , v2
+PRD - 
+
+SDLC models 
+Waterfall
+Agile 
+Scrum Cycle - max  4 weeks 
+Sprint Plannning - 2.5 Resource pllaning, user story selection , any code freeze , estimation
+Scrum call/Stand up - 15 mins 
+Sprint Backlog refinement - 
+Sprint Demo - 
+Sprint REtrospective - 
+
+Product Owner - 
+Scrum master  - 
+Developers QA - 
+
+EPIC  - 
+USer story - 
+Story points - 
+Tasks / Subtasks - 
+Spike 
+Agile report 
+
+Testing methodologies
+Black box - you need to focus only on applicaiton 
+White box - 
+Grey box  - Combination of both Black box and white box 
+Levels of Testing 
+Unit Testing
+Module/Componnent testing - QA Functional testing 
+Integration - 
+Regression - 
+User Acceptance Test 
+
+Black box testing types:
+Smoke -  navigation of applicaiton 
+Sanity -  one major funcitonality 
+Funcitonal GUI/ API -  
+Regression - 
+Retest - 
+Integration / E2E -
+Compatability - 
+Usability -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
