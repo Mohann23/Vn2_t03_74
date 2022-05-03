@@ -1,0 +1,74 @@
+API - Application programming interface 
+
+UI - Backend - DB
+HTML, CSS, Angular - Java, python, C#.. - Oracle, Mysql, MongoDB .Postgres...
+
+You want to utilizes only 2 services out of 10 services(whole product)
+
+CRUD -  CREATE, RETRIEVE, UPDATE, DELETE 
+HTTP Methods: 
+GET -  to retrieve the records/data from server - similar to SELECT command in DB
+POST - to create the data in server - similar to INSERT command in DB 
+PUT - if data exists will use put to update the whole data in server/ if data not exists it will create - similar to Update command in DB
+PATCH - to update the particular record in server - similar to update command with condition
+DELETE - to delete the data in server - similar to delete command in DB
+
+as a QA moslty we used GET, POST 
+
+HTTP Status Codes
+1XX - Information Messages  101,102,103..
+2XX* - Success Messages 200 OK (Request reaches to server), 201 Created(once data created successfully in server)
+3XX - Redirectional Messages 301,302,303...
+4XX* - Client Side Messages 400 (Bad Request), 404(URL not found), 401(Unauthorized)
+5XX* - Server Side Messages 500(Interal Server Error), 503(Service Unavailable), 504(Gateway time out)
+
+API Endpoint means BaseURL/service
+Request URL : https://www.google.com/search/users
+Request MEthod : GET 
+Request Headers:
+				Content-type : application/json, xml
+				accept-encoding : gzip, *
+				accept-language : en/us 
+				content-length : 100
+				Authorization : No Authorization/ Bearer Token
+
+
+Request URL : https://www.google.com
+Request MEthod : POST  
+Request Headers:
+				Content-type : application/json, xml
+				accept-encoding : gzip, *
+				accept-language : en/us 
+				content-length : 100
+				Authorization : No Authorization/ Bearer Token
+
+Request Payload : i.e BODY
+
+				{
+				"name": "Kiran Kumar",
+				"id": 123
+				}
+				
+Postman Download
+Go through above methods and status codes 
+check the any application what you people are looking F12 Network
+https://reqres.in/
+
+https://www.ibm.com/cloud/learn/api#toc-types-of-a-PrilHB2R
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
