@@ -1,4 +1,4 @@
-class Student:
+'''class Student:
     def __init__(self,name,age,roll_no):
         self.name=name
         self.age=age
@@ -15,3 +15,9 @@ class House(Student):
 
 h=House("Mohan",23,11,203,"Rajahamsa Apartment, Anantapur")
 h.talk()
+'''
+
+
+
+
+
