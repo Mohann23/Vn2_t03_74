@@ -22,12 +22,12 @@ h.talk()
 
 #prime number
 
-num = int(input("Enter a number: "))
 
 
+'''
 def prime(num):
     if num > 1:
-        for i in range(2, num):
+        for i in range(100, 200):
             if (num % i) == 0:
                 print(num, "is not a prime number")
                 break
@@ -38,4 +38,38 @@ def prime(num):
         print(num, "is not a prime number")
 
 prime(num)
+'''
+
+
+
+
+
+'''
+B/W range
+lower = 100
+upper = 200
+
+print("Prime numbers between", lower, "and", upper, "are:")
+
+for num in range(lower, upper + 1):
+
+   if num > 1:
+       for i in range(2, num):
+           if (num % i) == 0:
+               break
+       else:
+           print(num)
+'''
+
+
+
+
+
+
+
+
+
+
+
+
 
