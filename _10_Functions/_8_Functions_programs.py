@@ -10,14 +10,18 @@ When you call a function, the variables declared inside it are brought into scop
 
 '''
 total = 0  # This is global variable.
+
+
 # Function definition is here
-def sum( arg1, arg2 ):
-   # Add both the parameters and return them."
-   total = arg1 + arg2 # Here total is local variable.
-   print("Inside the function local total : ", total)
-   return total
+def sum(arg1, arg2):
+    # Add both the parameters and return them."
+    total = arg1 + arg2  # Here total is local variable.
+    print("Inside the function local total : ", total)
+    return total
+
+
 # Now you can call sum function
-sum( 10, 20 )
+sum(10, 20)
 print("Outside the function global total : ", total)
 
 '''
@@ -26,10 +30,13 @@ There are two types of variables: global variables and local variables.
 The scope of global variables is the entire program whereas the scope of
 local variable is limited to the function where it is defined.
 '''
+
+
 def func():
     x = "Python"
     print(x)
     print(s)
+
 
 s = "language"
 print(s)
@@ -46,14 +53,17 @@ Local variables:
 Local variables can only be reached within their scope(like func() above).
 Like in below program- there are two local variables – x and y.
 '''
-def sum(x,y):
+
+
+def sum(x, y):
     sum = x + y
     return sum
+
+
 print(sum(5, 10))
 
-
-#print(x)
-#print(y)
+# print(x)
+# print(y)
 '''
 Output
 15
@@ -70,10 +80,14 @@ A global variable can be used anywhere in the program as its scope is the entire
 Let’s understand global variable with a very simple example -
 '''
 z = 25
+
+
 def func():
     global z
     print(z)
-z=20
+
+
+z = 20
 func()
 print(z)
 
@@ -85,51 +99,58 @@ A calling func(), the global variable value is changed for the entire program.
 
 Below example shows a combination of local and global variables and function parameters -
 '''
+
+
 def func(x, y):
     global a
     a = 45
-#x,y = y,x
+
+
+# x,y = y,x
 b = 33
 b = 17
 c = 100
-#print(a,b,x,y)
-a,b,x,y = 3,15,3,4
-func(9,81)
-print (a,b,x,y)
-
-
-
-
+# print(a,b,x,y)
+a, b, x, y = 3, 15, 3, 4
+func(9, 81)
+print(a, b, x, y)
 
 # 3 Using Functions  ==> 10
 print("--------3 Using Functions----------")
-    # I. STATE
+# I. STATE
 message = 'Hello World'
-    # BEHAVIOR
+
+
+# BEHAVIOR
 def get_str_len(msg):
     leng = 0
     for char in msg:
         leng = leng + 1
     print("Length of given string : ", leng)
+
+
 get_str_len(message)
 
 # With return type
-message = 'Hello World' # Global
-def get_str_len(msg):   # msg -> local scope
-    print("String is : ",message)  # Global variable can be accesssed from anywhere
-    lent = 0            # lent -> Local scope
+message = 'Hello World'  # Global
+
+
+def get_str_len(msg):  # msg -> local scope
+    print("String is : ", message)  # Global variable can be accesssed from anywhere
+    lent = 0  # lent -> Local scope
     for char in msg:
         lent += 1
     return lent
+
+
 # print(msg, lent) # Local variables cant be accessed from outside fuction
 # print(msg)
 # print(lent)
 print(message)
-str_len = get_str_len(message)   # x = 10 print(x)
+str_len = get_str_len(message)  # x = 10 print(x)
 print("Length of given string : ", str_len)
 
-print("Length of given string : ", get_str_len(message))   # print(10)
-
+print("Length of given string : ", get_str_len(message))  # print(10)
 
 # Find number is even or odd
 x = 10
@@ -138,14 +159,15 @@ if x % 2 == 0:
 else:
     print("Odd number")
 
-
 # Print even and odd numbers between 1 to 100
 # STATE
 st = 1  # int(input("Enter start number"))
 end = 100  # int(input("Enter end number"))
+
+
 # BEHAVIOR
-def print_even_odd(ini_val, fin_val):   # evenorodd()   evenOrOdd()
-    for num in range(ini_val, fin_val+1): # 100, 200 (200, 300)
+def print_even_odd(ini_val, fin_val):  # evenorodd()   evenOrOdd()
+    for num in range(ini_val, fin_val + 1):  # 100, 200 (200, 300)
 
         if num % 2 == 0:
             print("EVen number : ", num)
@@ -153,7 +175,5 @@ def print_even_odd(ini_val, fin_val):   # evenorodd()   evenOrOdd()
             print("Odd number  : ", num)
 
 
-
 print_even_odd(10, 20)
 print_even_odd(30, 40)
-
