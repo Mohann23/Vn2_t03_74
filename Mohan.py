@@ -24,28 +24,9 @@ h.talk()
 
 
 
-'''
-def prime(num):
-    if num > 1:
-        for i in range(100, 200):
-            if (num % i) == 0:
-                print(num, "is not a prime number")
-                break
-        else:
-            print(num, "is a prime number")
-
-    else:
-        print(num, "is not a prime number")
-
-prime(num)
-'''
-
-
-
-
 
 '''
-B/W range
+#B/W range
 lower = 100
 upper = 200
 
@@ -59,7 +40,12 @@ for num in range(lower, upper + 1):
                break
        else:
            print(num)
+
 '''
+
+
+
+
 
 
 
