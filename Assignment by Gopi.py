@@ -145,10 +145,17 @@ table(n)
 
 #sum of list
 listA = [1,2,3,4,5,6]
+result = 0
+for i in listA:
+    result += i
+print(result)
 
-print(sum(listA))
 
+
+#print(sum(listA))
 '''
+
+
 
 '''
 #sum of tuple
