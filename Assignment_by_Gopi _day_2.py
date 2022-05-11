@@ -106,10 +106,15 @@ class Py_solution:
                 int_val += rom_val[s[i]]
         return int_val
 
-print(Py_solution().roman_to_int('IV'))
-print(Py_solution().roman_to_int('ML'))
-print(Py_solution().roman_to_int('X'))
+# print(Py_solution().roman_to_int('IV'))
+# print(Py_solution().roman_to_int('ML'))
+# print(Py_solution().roman_to_int('X'))
+
+m = Py_solution()
+print(m.roman_to_int('IV'))
 '''
+
+
 
 
 
