@@ -27,10 +27,10 @@ class Check:
         self.num = number
 
     def isArmstrong(self):
-        temp = self.num
+        temp = self.num      #temp is a variable
         res = 0
         while (temp != 0):
-            rem = temp % 10
+            rem = temp % 10   #rem is a variable
             res += rem ** 3
             temp //= 10
 
