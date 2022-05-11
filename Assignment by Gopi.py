@@ -265,6 +265,12 @@ test_range(4)
 
 
 # n=[[1,2,3],[4,5,6],[7,8,9]]
+#
+# for i in n:
+#     print(i)
+
+
+
 # for i in n[0]:
 #     print(i,end=' ',)
 # print()
