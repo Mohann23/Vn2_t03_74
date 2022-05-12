@@ -57,5 +57,3 @@ for num in range(lower, upper + 1):
 
 
 
-
-
