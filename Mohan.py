@@ -61,8 +61,13 @@ s = "Mohan"
 m = s[-2:]
 print(m)
 '''
+'''
+l=[]
+for i in range(100,200,2):
+   l.append(i)
 
-
+print(l[::-1])
+'''
 
 
 
