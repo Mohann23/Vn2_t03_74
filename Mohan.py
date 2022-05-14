@@ -17,12 +17,7 @@ h=House("Mohan",23,11,203,"Rajahamsa Apartment, Anantapur")
 h.talk()
 '''
 
-
-
-
-#prime number
-
-
+# prime number
 
 
 '''
@@ -72,15 +67,6 @@ print(l[::-1])
 l=[even for even in range(1,100) if even%2==0]
 print(l,end=",")
 '''
-'''
-l="Mohan"
+
+l = "Mohan"
 print(len(l))
-'''
-
-
-
-
-
-
-
-
