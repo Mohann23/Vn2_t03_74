@@ -69,6 +69,7 @@ print(l,end=",")
 '''
 
 '''
+
 l = "Mohan"
 print(len(l))
 '''
