@@ -42,9 +42,19 @@ for num in range(lower, upper + 1):
            print(num)
 
 '''
+'''
 
+l1=[1,2,3,4]
+l2=[4,3,2,1]
+l3=[6,8,2,1]
+l=[]
+for each in l1:
+    if each in l2:
+        if each in l3:
+            l.append(each)
 
-
+print(l)
+'''
 
 
 
