@@ -1,4 +1,3 @@
-
 '''
 Python OOPs Concepts
 ------------------------------
@@ -65,14 +64,16 @@ and methods of the class in python. It binds the attributes with the given argum
 self instance of class
 '''
 
+
 class Person:
     def __init__(self, id, name, age):
-        self.id = id   # self.id - instance
+        self.id = id  # self.id - instance
         self.name = name
         self.age = age
 
+
 p1 = Person(36, "john", 12)  # p1 - object
-p2 = Person(33, "kiran", 225) # p2 - object
+p2 = Person(33, "kiran", 225)  # p2 - object
 print(p1)
 print(p1.age)
 print(p1.name, p1.id, p1.age)
@@ -95,14 +96,18 @@ Consider the following example.
 
 Example:
 '''
-class Car:
-    def __init__(self,modelname, year): # attributes
-        self.modelname = modelname # self - instance variables  modelname = local variables
-        self.year = year
-    def display(self):
-        print(self.modelname,self.year)
 
-c1 = Car("Toyota", 2016) # instance object
+
+class Car:
+    def __init__(self, modelname, year):  # attributes
+        self.modelname = modelname  # self - instance variables  modelname = local variables
+        self.year = year
+
+    def display(self):
+        print(self.modelname, self.year)
+
+
+c1 = Car("Toyota", 2016)  # instance object
 c2 = Car("audi", 2020)
 print(c1.modelname, c1.year)
 c1.display()
@@ -132,13 +137,15 @@ Let us create a method in the Person class:
 
 print("____Insert a function that prints a greeting, and execute it on the p1 object:____")
 
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
 
-  def myfunc(self):
-    print("Hello my name is " + self.name)
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def myfunc(self):
+        print("Hello my name is " + self.name)
+
 
 p1 = Person("John", 36)
 p1.myfunc()
@@ -228,4 +235,3 @@ called functions.
 
 
 '''
-
