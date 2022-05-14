@@ -68,7 +68,15 @@ for i in range(100,200,2):
 
 print(l[::-1])
 '''
+'''
+l=[even for even in range(1,100) if even%2==0]
+print(l,end=",")
+'''
+'''
+l="Mohan"
+print(len(l))
 
+'''
 
 
 
