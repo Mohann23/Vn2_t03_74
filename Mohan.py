@@ -55,7 +55,12 @@ for each in l1:
 
 print(l)
 '''
+'''
 
+s = "Mohan"
+m = s[-2:]
+print(m)
+'''
 
 
 
