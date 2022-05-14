@@ -1,3 +1,5 @@
+'''
+
 class Mohan:
     def __init__(self, emp_id, name, sal):
         self.emp_id = emp_id
@@ -24,3 +26,24 @@ m = Mohan("Mohan", 143, 10000)
 m.details()
 m.class_method("kia", 2000)
 m.static_method(10, 20)
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
