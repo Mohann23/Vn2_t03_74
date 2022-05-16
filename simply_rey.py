@@ -1,6 +1,7 @@
-'''
+
 
 class Mohan:
+    money=1000000
     def __init__(self, emp_id, name, sal):
         self.emp_id = emp_id
         self.name = name
@@ -26,7 +27,7 @@ m = Mohan("Mohan", 143, 10000)
 m.details()
 m.class_method("kia", 2000)
 m.static_method(10, 20)
-'''
+
 
 '''
 l=[1,2,3,4,5,6,7,8,9,0]
