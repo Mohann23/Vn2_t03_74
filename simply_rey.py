@@ -27,23 +27,3 @@ m.details()
 m.class_method("kia", 2000)
 m.static_method(10, 20)
 '''
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
