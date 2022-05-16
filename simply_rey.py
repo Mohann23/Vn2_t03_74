@@ -27,3 +27,39 @@ m.details()
 m.class_method("kia", 2000)
 m.static_method(10, 20)
 '''
+
+'''
+l=[1,2,3,4,5,6,7,8,9,0]
+n=1
+for i in l:
+    if i==0:
+        continue
+    else:
+        n*=i
+print(n)
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
