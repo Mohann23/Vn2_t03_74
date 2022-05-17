@@ -277,7 +277,7 @@ test_range(4)
 # for i in n[1]:
 #     print(i,end=' ')
 # print()
-# for i in n[2]:
+# for i in n[2]:-
 #     print(i,end=' ')
 
 # print("Elements by matrix")
