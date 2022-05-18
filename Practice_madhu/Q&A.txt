@@ -1,0 +1,99 @@
+1. Why Python?applications of Python?What are the key features of Python?
+A. Python is easy to learn and use for beginners and newcomers in the industry.
+Application of python:
+---------------------
+1.Web Development
+2.ML and AI
+3.Data science
+4.game development
+5.audio and visual application
+6.software development
+7.Business application
+
+Features of python:
+------------------
+1) Python is easy to learn as compared to other programming languages
+2) Expressive Language
+3) Interpreted Language
+4) Cross-platform Language
+5) Free and Open Source
+6) Object-Oriented Language
+7) Extensible
+8) Large Standard Library
+
+
+====================
+2.Python is an interpreted language explain? How is Python an interpreted language?How do we interpret Python?
+A. An interpreter is a kind of program that executes other programs. When you write Python programs , it converts source code written by the developer into intermediate language which is again translated into the native language / machine language that is executed.
+
+===================
+
+3.What do you mean by Python literals?
+A.Literals in Python is defined as the raw data assigned to variables or constants while programming. We mainly have five types of literals which includes string literals, numeric literals, boolean literals, literal collections and a special literal None
+====================
+
+4.What type of language is python?
+A. Python is an interpreted, interactive, object-oriented programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data types, and classes.
+====================
+
+5.What is namespace in Python?
+A. A namespace is a collection of currently defined symbolic names along with information about the object that each name references.
+================
+
+6.What are local variables and global variables in Python?
+A. Global variables are those which are not defined inside any function and have a global scope whereas local variables are those which are defined inside a function and its scope is limited to that function only.
+====================
+
+7.List the common built-in datatypes in Python?
+A. In Python, we have many data types. The most common ones are float (floating point), int (integer), str (string), bool (Boolean), list, and dict (dictionary)
+=========================
+
+8.Explain all the keywords in Python?
+A.The keywords are some predefined and reserved words in python that have special meanings
+Value Keywords: True, False, None
+Operator Keywords: and, or, not, in, is
+Control Flow Keywords: if, elif, else
+Iteration Keywords: for, while, break, continue, else
+Structure Keywords: def, class, with, as, pass, lambda
+Returning Keywords: return, yield
+Import Keywords: import, from, as
+Exception-Handling Keywords: try, except, raise, finally, else, assert
+Asynchronous Programming Keywords: async, await
+Variable Handling Keywords: del, global, nonlocal
+
+=====================
+9.What are comments and how can you add comments in Python?
+A. Comments can be used to explain Python code. Comments can be used to make the code more readable. Comments can be used to prevent execution when testing code.
+=====================
+
+10.How to check Python Version in CMD?
+A.  python -V
+=============
+
+11.How is memory managed in Python?
+A.Python uses a portion of the memory for internal use and Non-Object memory.The other portion is dedicated to object storage like int,dict etc.....
+>> We us id() to access the address of the object.
+=================
+
+12.how the variable assignment happens in python a=10
+A.10 is first converted into binary form and then the binary form will be given a memory location and after that memory location is assigned to the a's memory location.
+===============
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
