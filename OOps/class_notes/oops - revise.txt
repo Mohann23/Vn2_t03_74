@@ -1,0 +1,31 @@
+oops:
+
+class: group of objects   data- logical, methods -physical
+object:                   data - physical,  method - logical
+
+encapusulation:combining data and methods to a single entity  eg .classname 
+
+inheritence: one class property to another class    B(A)
+
+abstraction: hidden internal functionality shows behavior   ABC  class Xyz(ABC):
+from abc import ABC
+
+class Xyz(ABC):
+polymorphism: many forms  + , len, class methods
+
+
+method overloading:
+method overridin
+mro principle
+access modifiers
+
+
+access specifiers:public(own, derived, other), protected(own class, derived class only ) , private(access only in own class)
+
+methodoverloading: same method name, functionality different eg.product(a,b), product(a,b,c)  overcome with dispatcher method
+
+method overriding: same method name, functionality same + additionality
+
+MRO- method resolution order  M(A), M(A,B), M
+
+
