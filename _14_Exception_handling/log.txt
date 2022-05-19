@@ -1,0 +1,15 @@
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:\Users\LENOVO PC\git_projects\Batch_17\B17_PythonTraining\_14_Exception_handling\Exception_notes_practice.py", line 262, in <module>
+    c = a/b
+ZeroDivisionError: division by zero
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:\Users\LENOVO PC\git_projects\Batch_17\B17_PythonTraining\_14_Exception_handling\Exception_notes_practice.py", line 262, in <module>
+    c = a/b
+ZeroDivisionError: division by zero
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:\Users\LENOVO PC\git_projects\Batch_17\B17_PythonTraining\_14_Exception_handling\Exception_notes_practice.py", line 262, in <module>
+    c = a/b
+ZeroDivisionError: division by zero
