@@ -40,7 +40,24 @@ for i in l:
 print(n)
 '''
 
+l=[1,2,3,4,5]
+'''
+for i in l:
+    if i%2==0:
+        print("Even",i*2)
+    else:
+        print("Odd",i*3)
+'''
+m=[]
+for i in l:
+    if i%2==0:
+        n=i*2
+        m.append(n)
+    else:
+        r=i*3
+        m.append(r)
 
+print(m)
 
 
 
