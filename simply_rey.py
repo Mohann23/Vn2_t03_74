@@ -48,6 +48,7 @@ for i in l:
     else:
         print("Odd",i*3)
 '''
+'''
 m=[]
 for i in l:
     if i%2==0:
@@ -59,8 +60,8 @@ for i in l:
 
 print(m)
 
-
-
+'''
+print("hello world")
 
 
 

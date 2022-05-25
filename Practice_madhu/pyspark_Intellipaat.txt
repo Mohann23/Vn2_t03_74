@@ -1,0 +1,28 @@
+What is big data?
+================
+Big data are extremely large data sets that may be analyzed computationally to reveal patterns, trends and associations, especially relating to human behavior and interactions.
+
+
+
+5 V's of Big Data:
+=================
+Velocity 
+Volume
+Variety
+Veracity
+Value
+
+
+What is Hadoop?
+>Hadoop is a framework which is used to store Big Data Across a spectrum of devices.
+>This is done to help you process Big Data in Parallel
+
+Three Important components in the Hadoop Ecosystem that you should know:
+==========
+1.Hdfs  (Parallel Storage Layer)
+2.MapReduce   (Parallel Processing Layer)
+3.YARN   (Resouce negotiator)
+
+
+
+
