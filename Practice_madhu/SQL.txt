@@ -1,0 +1,24 @@
+From W3 Schools website.
+
+SQL is a standard language for storing, Manipulating and retrieving data in databases.
+
+=>SQL Stands for Structured Qurey Language
+
+SQL
+===
+>Can execute queries against a database
+>Can retrieve data from a database
+>Can insert records in a database
+>Can update records in a database
+>Can delete records in a database
+>Can create new database
+>Can create a new tables in database
+>Can create stored procedures in a database
+>Can create views in a database
+>Can set permissions on tables, procedures, and views
+
+
+
+RDBMS:
+>It stands for Relational Database Management System.
+>It is basis for SQL, and for all modern databse system such as MS SQL Server, IBM DB2, Oracle, MySQL and Microsoft Access.
