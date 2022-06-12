@@ -13,7 +13,7 @@ driver.maximize_window()
 driver.find_element(By.NAME,'email').clear()
 driver.find_element(By.NAME,'email').send_keys('mohan444a3@gmail.com')
 driver.find_element(By.NAME,'pass').clear()
-driver.find_element(By.NAME,'pass').send_keys('Mohan@1999')
+driver.find_element(By.NAME,'pass').send_keys('********************')
 driver.find_element(By.NAME,'login').click()
 time.sleep(5)
 

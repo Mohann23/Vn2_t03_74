@@ -15,7 +15,7 @@ driver.find_element(By.ID,"nav-link-accountList-nav-line-1").click()
 #driver.find_element(By.NAME,"Password").clear()
 driver.find_element(By.NAME,"email").send_keys("mohan444a3@gmail.com")
 driver.find_element(By.XPATH,'//*[@id="continue"]').click()
-driver.find_element(By.NAME,"password").send_keys("Mohan1999")
+driver.find_element(By.NAME,"password").send_keys("***********")
 driver.find_element(By.XPATH,'//*[@id="signInSubmit"]').click()
 time.sleep(3)
 

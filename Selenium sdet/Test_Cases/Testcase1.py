@@ -87,7 +87,7 @@ driver.get("https://www.amazon.com/")
 driver.find_element(By.ID,"nav-link-accountList-nav-line-1").click()
 driver.find_element(By.NAME,"email").send_keys("mohan444a3@gmail.com")
 driver.find_element(By.ID,"continue").click()
-driver.find_element(By.ID,"ap_password").send_keys("Mohan1999")
+driver.find_element(By.ID,"ap_password").send_keys("*************")
 driver.find_element(By.ID,"signInSubmit").click()
 
 time.sleep(5)

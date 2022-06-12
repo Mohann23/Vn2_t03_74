@@ -59,13 +59,12 @@ for i in l:
         m.append(r)
 
 print(m)
-'''
-from datetime import datetime
-def func_date(i):
-    m = i.strftime("%d-%m-%y")
-    return m
-func_date()
-
+# '''
+# from datetime import datetime
+# def func_date(i):
+#     m = i.strftime("%d-%m-%y")
+#     return m
+# func_date()
 
 
 
